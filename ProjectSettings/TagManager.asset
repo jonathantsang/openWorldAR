@@ -12,6 +12,7 @@ TagManager:
   - numbers
   - persistentDataController
   - numLeft
+  - skillPointController
   layers:
   - Default
   - TransparentFX

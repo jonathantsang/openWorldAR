@@ -1465,6 +1465,7 @@ GameObject:
   - component: {fileID: 1304406837}
   - component: {fileID: 1304406836}
   - component: {fileID: 1304406835}
+  - component: {fileID: 1304406838}
   m_Layer: 5
   m_Name: Continue
   m_TagString: Untagged
@@ -1565,6 +1566,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1304406833}
+--- !u!114 &1304406838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1304406833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ade4a65fc4d64b59a747310a9059e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1373842878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,7 +1764,7 @@ GameObject:
   - component: {fileID: 1470195496}
   m_Layer: 0
   m_Name: SkillPointController
-  m_TagString: Untagged
+  m_TagString: skillPointController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

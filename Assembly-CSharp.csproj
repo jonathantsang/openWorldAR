@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\PersistentDataController.cs" />
+     <Compile Include="Assets\PointToMainButton.cs" />
      <Compile Include="Assets\Scripts\CollisionCheck.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PlayerTextController.cs" />
