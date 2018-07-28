@@ -53,9 +53,9 @@
   <ItemGroup>
      <Compile Include="Assets\InventoryManagementController.cs" />
      <Compile Include="Assets\Scripts\Classes\Collectible.cs" />
-     <Compile Include="Assets\Scripts\CollisionCheck.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PersistentDataController.cs" />
+     <Compile Include="Assets\Scripts\PlayerCollisionCheck.cs" />
      <Compile Include="Assets\Scripts\PlayerTextController.cs" />
      <Compile Include="Assets\Scripts\PointToMainButton.cs" />
      <Compile Include="Assets\Scripts\SkillPointButtonClick.cs" />

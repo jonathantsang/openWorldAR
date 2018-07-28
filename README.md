@@ -7,7 +7,7 @@ adrenalan 2018
 - quests (saturday)
 - AR examine items/puzzles (Pat)
 
-conversation choices on intelligence
+conversation choices on intelligence, etc.
 
 - conversation ui 
 - parsing text for sentiment:
