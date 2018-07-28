@@ -10,6 +10,7 @@ public class PersistentDataController : MonoBehaviour {
 	private int agility = 0;
 
 	GameObject inventory;
+	GameObject questLog;
 
 	List<Collectible> collectibles; // Used for populating the inventory
 
@@ -18,6 +19,8 @@ public class PersistentDataController : MonoBehaviour {
 		DontDestroyOnLoad(this.gameObject);
 		inventory = GameObject.FindGameObjectWithTag ("inventory").gameObject;
 		inventory.SetActive (false);
+		questLog = GameObject.FindGameObjectWithTag ("questLog").gameObject;
+		questLog.SetActive (false);
 
 		collectibles = new List<Collectible> ();
 	}

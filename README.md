@@ -16,4 +16,6 @@ conversation choices on intelligence, etc.?
 - parsing text for sentiment:
 - aggressive, neutral, sad, happy
 
+Quests page (q)
+
 .tech website

@@ -17,6 +17,8 @@ TagManager:
   - inventoryInner
   - conversationUI
   - npc2
+  - interactPanel
+  - questLog
   layers:
   - Default
   - TransparentFX

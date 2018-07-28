@@ -17,6 +17,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 
 	private void OnTriggerEnter2D(Collider2D col)
 	{
+		// Show interactPanel when it is touching
 		if (col.CompareTag ("tree")) {
 			print ("tree");
 			// Change to tree scene in AR

@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\InventoryManagementController.cs" />
      <Compile Include="Assets\Scripts\Classes\Collectible.cs" />
+     <Compile Include="Assets\Scripts\Classes\Quest.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PersistentDataController.cs" />
      <Compile Include="Assets\Scripts\PlayerCollisionCheck.cs" />
