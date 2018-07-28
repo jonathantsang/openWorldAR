@@ -1,13 +1,15 @@
 # openWorldAR
 adrenalan 2018 
 
-- story
-- select skill points
-- traverse world
-- quests 
-- AR examine items/puzzles
+- story (naw)
+- select skill points (done)
+- traverse world (done)
+- quests (saturday)
+- AR examine items/puzzles (Pat)
 
-- conversation ui
+conversation choices on intelligence
+
+- conversation ui 
 - parsing text for sentiment:
 - aggressive, neutral, sad, happy
 

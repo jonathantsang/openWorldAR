@@ -9,14 +9,31 @@ public class PersistentDataController : MonoBehaviour {
 	private int intelligence = 0;
 	private int agility = 0;
 
+	GameObject inventory;
+
+	List<Collectible> collectibles; // Used for populating the inventory
+
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad(this.gameObject);
+		inventory = GameObject.FindGameObjectWithTag ("inventory").gameObject;
+		inventory.SetActive (false);
+
+		collectibles = new List<Collectible> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetKeyDown (KeyCode.I)) {
+			print ("inventory");
+			// Open inventory
+			if (inventory.activeInHierarchy) {
+				inventory.SetActive (false);
+			} else {
+				inventory.SetActive (true);
+			}
+
+		}
 	}
 
 	public void setStrength(int strength){
@@ -41,5 +58,17 @@ public class PersistentDataController : MonoBehaviour {
 
 	public int getAgility(){
 		return agility;
+	}
+
+	public List<Collectible> getCollectibles(){
+		return collectibles;
+	}
+
+	public void removeFromCollectibles(int id){
+		foreach (Collectible collectible in collectibles) {
+			if (collectible.getId () == id) {
+				collectibles.Remove (collectible);
+			}
+		}
 	}
 }
