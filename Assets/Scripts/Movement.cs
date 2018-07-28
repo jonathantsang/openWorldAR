@@ -22,7 +22,6 @@ public class Movement : MonoBehaviour{
 		maxSpeed = curSpeed;
 
 		// Move sentences
-		rb2d.velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* curSpeed, 0.8f),0);
-
+		// rb2d.velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* curSpeed, 0.8f),0);
 	}
 }

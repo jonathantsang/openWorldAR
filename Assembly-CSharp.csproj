@@ -51,14 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\InvButtonClick.cs" />
+     <Compile Include="Assets\QueButtonClick.cs" />
      <Compile Include="Assets\Scripts\Classes\Collectible.cs" />
      <Compile Include="Assets\Scripts\Classes\Quest.cs" />
      <Compile Include="Assets\Scripts\InventoryManagementController.cs" />
+     <Compile Include="Assets\Scripts\LeftButtonClick.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PersistentDataController.cs" />
      <Compile Include="Assets\Scripts\PlayerCollisionCheck.cs" />
      <Compile Include="Assets\Scripts\PlayerTextController.cs" />
      <Compile Include="Assets\Scripts\PointToMainButton.cs" />
+     <Compile Include="Assets\Scripts\RightButtonClick.cs" />
      <Compile Include="Assets\Scripts\SkillPointButtonClick.cs" />
      <Compile Include="Assets\Scripts\SkillPointController.cs" />
  <Reference Include="UnityEngine.CoreModule">

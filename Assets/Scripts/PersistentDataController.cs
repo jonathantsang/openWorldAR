@@ -18,10 +18,10 @@ public class PersistentDataController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad(this.gameObject);
-		inventory = GameObject.FindGameObjectWithTag ("inventory").gameObject;
-		inventory.SetActive (false);
-		questLog = GameObject.FindGameObjectWithTag ("questLog").gameObject;
-		questLog.SetActive (false);
+		//inventory = GameObject.FindGameObjectWithTag ("inventory").gameObject;
+		//inventory.SetActive (false);
+		//questLog = GameObject.FindGameObjectWithTag ("questLog").gameObject;
+		//questLog.SetActive (false);
 
 		collectibles = new List<Collectible> ();
 		quests = new List<Quest> ();
@@ -29,6 +29,7 @@ public class PersistentDataController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		/*
 		if (Input.GetKeyDown (KeyCode.I)) {
 			print ("inventory");
 			// Open inventory
@@ -56,7 +57,7 @@ public class PersistentDataController : MonoBehaviour {
 					questEach.transform.GetChild (i).GetChild (2).GetComponent<Text> ().text = "Given by: " + quests [i].giver.ToString();
 				}
 			}
-		}
+		}*/
 	}
 
 	public void setStrength(int strength){
@@ -97,5 +98,9 @@ public class PersistentDataController : MonoBehaviour {
 
 	public void addQuest(int i, string description, string giver){
 		quests.Add (new Quest(i, description, giver));
+	}
+
+	public List<Quest> getQuests(){
+		return quests;
 	}
 }
