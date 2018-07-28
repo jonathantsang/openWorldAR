@@ -4,28 +4,13 @@ using UnityEngine;
 
 public class Quest {
 
-	int id {
-		get {
-			return this.id;
-		}
-		set {
-			this.id = value;
-		}
+	public Quest(int id, string description, string giver){
+		this.id = id;
+		this.description = description;
+		this.giver = giver;
 	}
-	string description{
-		get {
-			return this.description;
-		}
-		set {
-			this.description = value;
-		}
-	}
-	string giver {
-		get {
-			return this.giver;
-		}
-		set {
-			this.giver = value;
-		}
-	}
+
+	public int id;
+	public string description;
+	public string giver;
 }

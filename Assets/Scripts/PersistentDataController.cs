@@ -13,6 +13,7 @@ public class PersistentDataController : MonoBehaviour {
 	GameObject questLog;
 
 	List<Collectible> collectibles; // Used for populating the inventory
+	List<Quest> quests; // Used for populating the quests
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,7 @@ public class PersistentDataController : MonoBehaviour {
 		questLog.SetActive (false);
 
 		collectibles = new List<Collectible> ();
+		quests = new List<Quest> ();
 	}
 	
 	// Update is called once per frame
@@ -34,8 +36,26 @@ public class PersistentDataController : MonoBehaviour {
 				inventory.SetActive (false);
 			} else {
 				inventory.SetActive (true);
+				// Populate the inventory
+
 			}
 
+		}
+		if (Input.GetKeyDown (KeyCode.Q)) {
+			print ("quest");
+			// Open inventory
+			if (questLog.activeInHierarchy) {
+				questLog.SetActive (false);
+			} else {
+				questLog.SetActive (true);
+				GameObject questEach = questLog.transform.GetChild (1).gameObject;
+				// Populate the questLog
+				for (int i = 0; i < quests.Count; i++){
+					questEach.transform.GetChild (i).GetChild (0).GetComponent<Text> ().text = "Quest: " + quests [i].id.ToString();
+					questEach.transform.GetChild (i).GetChild (1).GetComponent<Text> ().text = "Description: " + quests [i].description.ToString();
+					questEach.transform.GetChild (i).GetChild (2).GetComponent<Text> ().text = "Given by: " + quests [i].giver.ToString();
+				}
+			}
 		}
 	}
 
@@ -73,5 +93,9 @@ public class PersistentDataController : MonoBehaviour {
 				collectibles.Remove (collectible);
 			}
 		}
+	}
+
+	public void addQuest(int i, string description, string giver){
+		quests.Add (new Quest(i, description, giver));
 	}
 }
