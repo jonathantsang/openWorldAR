@@ -1,6 +1,7 @@
 # openWorldAR
 adrenalan 2018 
 
+- story
 - select skill points
 - traverse world
 - quests 
@@ -9,4 +10,6 @@ adrenalan 2018
 - conversation ui
 - parsing text for sentiment:
 - aggressive, neutral, sad, happy
+
+
 

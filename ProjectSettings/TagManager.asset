@@ -7,6 +7,11 @@ TagManager:
   - tree
   - player
   - npc1
+  - up
+  - down
+  - numbers
+  - persistentDataController
+  - numLeft
   layers:
   - Default
   - TransparentFX
