@@ -7,10 +7,12 @@ public class Movement : MonoBehaviour{
 	private float curSpeed;
 	private float maxSpeed;
 	private Rigidbody2D rb2d;
+	private Animator animator;
 
 	void Start()
 	{
-		walkSpeed = 6;
+		animator = transform.GetChild(0).GetComponent<Animator>();
+		walkSpeed = 4;
 		rb2d = GetComponent<Rigidbody2D> ();
 	}
 
@@ -20,7 +22,7 @@ public class Movement : MonoBehaviour{
 		maxSpeed = curSpeed;
 
 		// Move sentences
-		rb2d.velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* curSpeed, 0.8f),
-			Mathf.Lerp(0, Input.GetAxis("Vertical")* curSpeed, 0.8f));
+		rb2d.velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal")* curSpeed, 0.8f),0);
+
 	}
 }

@@ -7,11 +7,13 @@ adrenalan 2018
 - quests (saturday)
 - AR examine items/puzzles (Pat)
 
-conversation choices on intelligence, etc.
+headshots and ui stuff
+conversation choices on intelligence, etc.?
+
+2d side scroll, interact with items
 
 - conversation ui 
 - parsing text for sentiment:
 - aggressive, neutral, sad, happy
 
-
-
+.tech website
