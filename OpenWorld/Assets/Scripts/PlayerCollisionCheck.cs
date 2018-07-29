@@ -28,23 +28,31 @@ public class PlayerCollisionCheck : MonoBehaviour {
 		// Show interactPanel when it is touching
 		if (col.CompareTag ("tree")) {
 			print ("tree");
-			// Change to tree scene in AR
-			SceneManager.LoadScene ("Tree");
+
+			// Check if has the collectible, aka done puzzle
+			bool alreadyGotItem = PDC.containsCollectibleId(1);
+
+			if (!alreadyGotItem) {
+				// Change to tree scene in AR
+				SceneManager.LoadScene ("Tree");
+			}
+
+
 		} else if (col.CompareTag ("fence")) {
 			print ("fence");
 
-			SceneManager.LoadScene ("Fence");
+			// Check if has the collectible, aka done puzzle
+			bool alreadyGotItem = PDC.containsCollectibleId(2);
+
+			if (!alreadyGotItem) {
+				// Change to tree scene in AR
+				SceneManager.LoadScene ("Fence");
+			}
 
 		} else if (col.CompareTag ("npc1")) {
 			print ("npc1");
 
-			bool alreadyGotQuest = false;
-
-			for (int i = 0; i < quests.Count; i++) {
-				if (quests [i].id == 1) {
-					alreadyGotQuest = true;
-				}
-			}
+			bool alreadyGotQuest = PDC.containsQuestId (1);
 
 			// Check if already collected the quest
 			if(!alreadyGotQuest){
@@ -67,13 +75,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 			print ("npc2");
 			// execute dialog
 
-			bool alreadyGotQuest = false;
-
-			for (int i = 0; i < quests.Count; i++) {
-				if (quests [i].id == 2) {
-					alreadyGotQuest = true;
-				}
-			}
+			bool alreadyGotQuest = PDC.containsQuestId (2);
 
 			// Check if already collected the quest
 			if (!alreadyGotQuest) {
@@ -88,13 +90,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 		} else if (col.CompareTag ("npc3")) {
 			print ("npc3");
 
-			bool alreadyGotQuest = false;
-
-			for (int i = 0; i < quests.Count; i++) {
-				if (quests [i].id == 3) {
-					alreadyGotQuest = true;
-				}
-			}
+			bool alreadyGotQuest = PDC.containsQuestId (3);
 
 			// Check if already collected the quest
 			if (!alreadyGotQuest) {
@@ -111,13 +107,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 
 			// execute stuff
 
-			bool alreadyGotQuest = false;
-
-			for (int i = 0; i < quests.Count; i++) {
-				if (quests [i].id == 4) {
-					alreadyGotQuest = true;
-				}
-			}
+			bool alreadyGotQuest = PDC.containsQuestId (4);
 
 			// Check if already collected the quest
 			if (!alreadyGotQuest) {

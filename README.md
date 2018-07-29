@@ -31,8 +31,10 @@ final stuff:
 - integrate the ar puzzles ones (tree is RBG)
 - suceed can't go back in the same puzzle (No need)
 - go into building, table puzzle (table puzzle)
-- make the quests real (no duplicate, actually complete them)
+- make the quests real (no duplicate, actually complete them, blocked)
+- message (done?)
 - brian website .tech domain
-- inventory
+- inventory (done ish?)
+- go back button in ar sections
 - story
 - conversation options based on skill points

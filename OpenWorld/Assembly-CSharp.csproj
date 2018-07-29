@@ -180,6 +180,7 @@
      <Compile Include="Assets\ARAssets\GoogleARCore\SDK\Scripts\XPSessionStatus.cs" />
      <Compile Include="Assets\ARAssets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
      <Compile Include="Assets\MessageController.cs" />
+     <Compile Include="Assets\QuitButtonClick.cs" />
      <Compile Include="Assets\Scripts\Classes\Collectible.cs" />
      <Compile Include="Assets\Scripts\Classes\Quest.cs" />
      <Compile Include="Assets\Scripts\InvButtonClick.cs" />

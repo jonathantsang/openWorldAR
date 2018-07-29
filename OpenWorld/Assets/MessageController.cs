@@ -7,7 +7,7 @@ public class MessageController : MonoBehaviour {
 	PersistentDataController PDC;
 	Text message;
 	float timer = 0f;
-	float showMessageLen = 5f; // 5 seconds
+	float showMessageLen = 3f; // 5 seconds
 
 	// Use this for initialization
 	void Start () {

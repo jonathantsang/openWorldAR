@@ -103,6 +103,15 @@ public class PersistentDataController : MonoBehaviour {
 		return collectibles;
 	}
 
+	public bool containsCollectibleId(int id){
+		for (int i = 0; i < collectibles.Count; i++) {
+			if (collectibles [i].id == id) {
+				return true;
+			}
+		}
+		return false;
+	}
+
 	public void removeFromCollectibles(int id){
 		foreach (Collectible collectible in collectibles) {
 			if (collectible.id == id) {
@@ -117,5 +126,14 @@ public class PersistentDataController : MonoBehaviour {
 
 	public List<Quest> getQuests(){
 		return quests;
+	}
+
+	public bool containsQuestId(int id){
+		for (int i = 0; i < quests.Count; i++) {
+			if (quests [i].id == id) {
+				return true;
+			}
+		}
+		return false;
 	}
 }
