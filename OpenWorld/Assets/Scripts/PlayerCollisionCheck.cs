@@ -80,6 +80,8 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				MC.showMessage("Completed Quest: Trophy 1");
 
 				PDC.removeFromCollectibles (1);
+
+				PDC.removeFromQuests (1);
 			}
 
 
@@ -97,6 +99,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				MC.showMessage("Added Quest: Quest for the Magical Orb");
 
 				PDC.addQuest (2, "find magic orb", "Elderly Wizard");
+
 			}
 
 			if (PDC.containsCollectibleId (2)) {
@@ -110,6 +113,8 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				MC.showMessage("Completed Quest: Elderly Wizard");
 
 				PDC.removeFromCollectibles (2);
+
+				PDC.removeFromQuests (2);
 			}
 
 		} else if (col.CompareTag ("npc3")) {
@@ -139,6 +144,8 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				MC.showMessage("Completed Quest: Saxton Hale");
 
 				PDC.removeFromCollectibles (3);
+
+				PDC.removeFromQuests (3);
 			}
 
 		} else if (col.CompareTag ("npc4")) {
@@ -157,6 +164,8 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				// execute stuff
 
 				PDC.addQuest (4, "gather milk by the fence", "Farmer");
+
+
 			}
 
 			if (PDC.containsCollectibleId (4)) {
@@ -170,6 +179,8 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				MC.showMessage("Completed Quest: Saxton Hale");
 
 				PDC.removeFromCollectibles (4);
+
+				PDC.removeFromQuests (4);
 			}
 		}
 

@@ -33,8 +33,8 @@ ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/Andro
 		ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/AndroidManifest.xml:3:135-160
 application
 ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/AndroidManifest.xml:4:3-19:17
-MERGED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:30:5-44:19
-MERGED from [:google_ar_required:] /Users/Jon/.android/build-cache/65a1469815429f468d1320e5670aba30bfea637d/output/AndroidManifest.xml:7:5-9:19
+MERGED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:30:5-44:19
+MERGED from [:google_ar_required:] /Users/Jon/.android/build-cache/3a3625d2f70f00cc87e0f01dc951b6e2ae72e76a/output/AndroidManifest.xml:7:5-9:19
 	android:label
 		ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/AndroidManifest.xml:4:92-124
 	android:icon
@@ -117,10 +117,10 @@ ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/Andro
 		ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/AndroidManifest.xml:18:16-49
 uses-sdk
 ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/AndroidManifest.xml:20:3-72
-MERGED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:26:5-28:41
-MERGED from [:google_ar_required:] /Users/Jon/.android/build-cache/65a1469815429f468d1320e5670aba30bfea637d/output/AndroidManifest.xml:6:5-43
-MERGED from [:unityandroidpermissions:] /Users/Jon/.android/build-cache/5080c8313e74799d3ac3c5107343494c05b3de5d/output/AndroidManifest.xml:11:5-13:41
-MERGED from [:unitygar:] /Users/Jon/.android/build-cache/1ed7d292baa6127d5ae2a2186d8bc38d86ae0454/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:26:5-28:41
+MERGED from [:google_ar_required:] /Users/Jon/.android/build-cache/3a3625d2f70f00cc87e0f01dc951b6e2ae72e76a/output/AndroidManifest.xml:6:5-43
+MERGED from [:unityandroidpermissions:] /Users/Jon/.android/build-cache/52c394463981f8a2349d6674d00e295493db1a1e/output/AndroidManifest.xml:11:5-13:41
+MERGED from [:unitygar:] /Users/Jon/.android/build-cache/a4e1e6df72fc02e8c2811cd827f8e4a2b96a2f5f/output/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
 		ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/AndroidManifest.xml:20:40-69
 		INJECTED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/AndroidManifest.xml
@@ -158,34 +158,34 @@ ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/Andro
 	android:name
 		ADDED from /Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/src/main/AndroidManifest.xml:26:17-80
 activity#com.google.ar.core.InstallActivity
-ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:33:9-39:80
+ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:33:9-39:80
 	android:excludeFromRecents
-		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:36:13-46
+		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:36:13-46
 	android:launchMode
-		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:38:13-43
+		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:38:13-43
 	android:exported
-		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:37:13-37
+		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:37:13-37
 	android:configChanges
-		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:35:13-74
+		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:35:13-74
 	android:theme
-		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:39:13-77
+		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:39:13-77
 	android:name
-		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:34:13-62
+		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:34:13-62
 meta-data#com.google.ar.core.min_apk_version
-ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:41:9-43:41
+ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:41:9-43:41
 	android:value
-		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:43:13-38
+		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:43:13-38
 	android:name
-		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/901400f122e864fefc9ec1bad119d3a4950ba5e8/output/AndroidManifest.xml:42:13-62
+		ADDED from [:arcore_client:] /Users/Jon/.android/build-cache/b56c57ed292062d57f709e1262c9122d340935ee/output/AndroidManifest.xml:42:13-62
 meta-data#com.google.ar.core
-ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/65a1469815429f468d1320e5670aba30bfea637d/output/AndroidManifest.xml:8:9-81
+ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/3a3625d2f70f00cc87e0f01dc951b6e2ae72e76a/output/AndroidManifest.xml:8:9-81
 	android:value
-		ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/65a1469815429f468d1320e5670aba30bfea637d/output/AndroidManifest.xml:8:54-78
+		ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/3a3625d2f70f00cc87e0f01dc951b6e2ae72e76a/output/AndroidManifest.xml:8:54-78
 	android:name
-		ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/65a1469815429f468d1320e5670aba30bfea637d/output/AndroidManifest.xml:8:20-53
+		ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/3a3625d2f70f00cc87e0f01dc951b6e2ae72e76a/output/AndroidManifest.xml:8:20-53
 uses-feature#android.hardware.camera.ar
-ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/65a1469815429f468d1320e5670aba30bfea637d/output/AndroidManifest.xml:10:5-86
+ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/3a3625d2f70f00cc87e0f01dc951b6e2ae72e76a/output/AndroidManifest.xml:10:5-86
 	android:required
-		ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/65a1469815429f468d1320e5670aba30bfea637d/output/AndroidManifest.xml:10:61-84
+		ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/3a3625d2f70f00cc87e0f01dc951b6e2ae72e76a/output/AndroidManifest.xml:10:61-84
 	android:name
-		ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/65a1469815429f468d1320e5670aba30bfea637d/output/AndroidManifest.xml:10:19-60
+		ADDED from [:google_ar_required:] /Users/Jon/.android/build-cache/3a3625d2f70f00cc87e0f01dc951b6e2ae72e76a/output/AndroidManifest.xml:10:19-60

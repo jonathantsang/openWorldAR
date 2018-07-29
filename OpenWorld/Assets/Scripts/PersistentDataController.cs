@@ -143,6 +143,15 @@ public class PersistentDataController : MonoBehaviour {
 		return false;
 	}
 
+	public void removeFromQuests(int id){
+		foreach (Quest quest in quests) {
+			if (quest.id == id) {
+				quests.Remove (quest);
+				break;
+			}
+		}
+	}
+
 	public bool getCompleted(int i){
 		return completed [i] == 1;
 	}

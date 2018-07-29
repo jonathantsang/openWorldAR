@@ -94,8 +94,6 @@ namespace GoogleARCore.Examples.HelloAR
         public void Start()
         {
             LoadingScreen.SetActive(false);
-
-			SceneManager.LoadScene("FoggyFactoryBog", LoadSceneMode.Single);
         }
 
         /// <summary>

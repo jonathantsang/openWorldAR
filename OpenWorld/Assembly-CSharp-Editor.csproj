@@ -266,6 +266,18 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.64.0">
+ <HintPath>/Users/Jon/GitHub/openWorldAR/OpenWorld/Assets/ARAssets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.64.0">
+ <HintPath>/Users/Jon/GitHub/openWorldAR/OpenWorld/Assets/ARAssets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>/Users/Jon/GitHub/openWorldAR/OpenWorld/Assets/ARAssets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.64.0">
+ <HintPath>/Users/Jon/GitHub/openWorldAR/OpenWorld/Assets/ARAssets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/Jon/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -283,18 +295,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/Jon/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandlerImpl_v1.2.64.0">
- <HintPath>/Users/Jon/GitHub/openWorldAR/OpenWorld/Assets/ARAssets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.JarResolver_v1.2.64.0">
- <HintPath>/Users/Jon/GitHub/openWorldAR/OpenWorld/Assets/ARAssets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandler">
- <HintPath>/Users/Jon/GitHub/openWorldAR/OpenWorld/Assets/ARAssets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
- </Reference>
- <Reference Include="Google.IOSResolver_v1.2.64.0">
- <HintPath>/Users/Jon/GitHub/openWorldAR/OpenWorld/Assets/ARAssets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
