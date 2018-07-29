@@ -16,6 +16,7 @@ public class PersistentDataController : MonoBehaviour {
 
 	List<Collectible> collectibles; // Used for populating the inventory
 	List<Quest> quests; // Used for populating the quests
+	List<int> completed;
 
 	public string relayMessage = "";
 	public int sceneChange = 0;
@@ -36,6 +37,10 @@ public class PersistentDataController : MonoBehaviour {
 
 		collectibles = new List<Collectible> ();
 		quests = new List<Quest> ();
+		completed = new List<int> ();
+		for (int i = 0; i < 9; i++) {
+			completed.Add (0);
+		}
 	}
 	
 	// Update is called once per frame
@@ -95,7 +100,7 @@ public class PersistentDataController : MonoBehaviour {
 		return agility;
 	}
 
-	public void addCollectible(int i,string descrip, Image img){
+	public void addCollectible(int i,string descrip, Sprite img){
 		collectibles.Add (new Collectible (i, descrip, img));
 	}
 
@@ -116,6 +121,7 @@ public class PersistentDataController : MonoBehaviour {
 		foreach (Collectible collectible in collectibles) {
 			if (collectible.id == id) {
 				collectibles.Remove (collectible);
+				break;
 			}
 		}
 	}
@@ -135,5 +141,13 @@ public class PersistentDataController : MonoBehaviour {
 			}
 		}
 		return false;
+	}
+
+	public bool getCompleted(int i){
+		return completed [i] == 1;
+	}
+
+	public void setCompleted(int i){
+		completed [i] = 1;
 	}
 }

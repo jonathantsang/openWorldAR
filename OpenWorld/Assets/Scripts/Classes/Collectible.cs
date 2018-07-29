@@ -8,11 +8,11 @@ public class Collectible {
 	// Used for storing in the inventory
 	public int id;
 	public string descrip;
-	public Image image;
+	public Sprite sprite;
 
-	public Collectible(int id, string descrip, Image image){
+	public Collectible(int id, string descrip, Sprite sprite){
 		this.id = id;
 		this.descrip = descrip;
-		this.image = image;
+		this.sprite = sprite;
 	}
 }

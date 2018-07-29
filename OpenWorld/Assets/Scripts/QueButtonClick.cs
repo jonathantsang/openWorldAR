@@ -39,7 +39,8 @@ public class QueButtonClick : MonoBehaviour {
 			questLog.SetActive (true);
 			GameObject questEach = questLog.transform.GetChild (1).gameObject;
 			// Populate the questLog
-			for (int i = 0; i < quests.Count; i++){
+			int len = Mathf.Min(quests.Count, 3);
+			for (int i = 0; i < len; i++){
 				questEach.transform.GetChild (i).GetChild (0).GetComponent<Text> ().text = "Quest: " + quests [i].id.ToString();
 				questEach.transform.GetChild (i).GetChild (1).GetComponent<Text> ().text = "Description: " + quests [i].description.ToString();
 				questEach.transform.GetChild (i).GetChild (2).GetComponent<Text> ().text = "Given by: " + quests [i].giver.ToString();

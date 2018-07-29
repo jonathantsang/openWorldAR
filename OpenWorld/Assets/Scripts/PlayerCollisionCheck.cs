@@ -55,7 +55,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 			bool alreadyGotQuest = PDC.containsQuestId (1);
 
 			// Check if already collected the quest
-			if(!alreadyGotQuest){
+			if(!alreadyGotQuest || !PDC.getCompleted(1)){
 				// execute dialog if not played already
 
 				// For now just change to "I need a meatball"
@@ -69,6 +69,19 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				PDC.addQuest (1, "Find his meatball", "Old Man 1");
 			}
 
+			if (PDC.containsCollectibleId (1)) {
+				// Already got collectible
+
+				// For now just change to "I need a meatball"
+				TextMesh npcText = GameObject.FindGameObjectWithTag (col.tag).transform.parent.GetChild (1).GetComponent<TextMesh> ();
+				npcText.text = "Thanks for the meatball";
+
+				// Message for added quest
+				MC.showMessage("Completed Quest: Meatball 1");
+
+				PDC.removeFromCollectibles (1);
+			}
+
 
 
 		} else if (col.CompareTag ("npc2")) {
@@ -78,13 +91,25 @@ public class PlayerCollisionCheck : MonoBehaviour {
 			bool alreadyGotQuest = PDC.containsQuestId (2);
 
 			// Check if already collected the quest
-			if (!alreadyGotQuest) {
+			if (!alreadyGotQuest && !PDC.getCompleted(2)) {
 
 				// Message for added quest
 				MC.showMessage("Added Quest: Quest for the Magical Orb");
 
 				PDC.addQuest (2, "find magic orb", "Elderly Wizard");
+			}
 
+			if (PDC.containsCollectibleId (2)) {
+				// Already got collectible
+
+				// For now just change to "I need a meatball"
+				TextMesh npcText = GameObject.FindGameObjectWithTag (col.tag).transform.parent.GetChild (1).GetComponent<TextMesh> ();
+				npcText.text = "Thanks for the magical orb";
+
+				// Message for added quest
+				MC.showMessage("Completed Quest: Elderly Wizard");
+
+				PDC.removeFromCollectibles (2);
 			}
 
 		} else if (col.CompareTag ("npc3")) {
@@ -93,7 +118,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 			bool alreadyGotQuest = PDC.containsQuestId (3);
 
 			// Check if already collected the quest
-			if (!alreadyGotQuest) {
+			if (!alreadyGotQuest && !PDC.getCompleted(3)) {
 
 				// Message for added quest
 				MC.showMessage ("Added Quest: Steak and Fries");
@@ -102,6 +127,20 @@ public class PlayerCollisionCheck : MonoBehaviour {
 
 				PDC.addQuest (3, "get a Brahim steak", "Saxton Hale");
 			}
+
+			if (PDC.containsCollectibleId (3)) {
+				// Already got collectible
+
+				// For now just change to "I need a meatball"
+				TextMesh npcText = GameObject.FindGameObjectWithTag (col.tag).transform.parent.GetChild (1).GetComponent<TextMesh> ();
+				npcText.text = "Yum";
+
+				// Message for added quest
+				MC.showMessage("Completed Quest: Saxton Hale");
+
+				PDC.removeFromCollectibles (3);
+			}
+
 		} else if (col.CompareTag ("npc4")) {
 			print ("npc4");
 
@@ -110,7 +149,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 			bool alreadyGotQuest = PDC.containsQuestId (4);
 
 			// Check if already collected the quest
-			if (!alreadyGotQuest) {
+			if (!alreadyGotQuest && !PDC.getCompleted(4)) {
 
 				// Message for added quest
 				MC.showMessage ("Added Quest: A Farmer's Harvest");
@@ -118,6 +157,19 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				// execute stuff
 
 				PDC.addQuest (4, "gather milk by the fence", "Farmer");
+			}
+
+			if (PDC.containsCollectibleId (4)) {
+				// Already got collectible
+
+				// For now just change to "I need a meatball"
+				TextMesh npcText = GameObject.FindGameObjectWithTag (col.tag).transform.parent.GetChild (1).GetComponent<TextMesh> ();
+				npcText.text = "Yum";
+
+				// Message for added quest
+				MC.showMessage("Completed Quest: Saxton Hale");
+
+				PDC.removeFromCollectibles (4);
 			}
 		}
 

@@ -89,11 +89,19 @@ namespace GoogleARCore.Examples.HelloAR
 
         private GameObject[] obj = new GameObject[3];
 
-		public Image meatBallImage;
+		public Sprite meatBallImage;
 
         public void Start()
         {
             LoadingScreen.SetActive(false);
+
+			// Demo
+			PersistentDataController PDC = GameObject.FindGameObjectWithTag("persistentDataController").GetComponent<PersistentDataController>();
+			PDC.addCollectible(1, "Ball of Meat", meatBallImage);
+			PDC.relayMessage = "You got a ball of meat...";
+			PDC.sceneChange = 1;
+
+			SceneManager.LoadScene("FoggyFactoryBog", LoadSceneMode.Single);
         }
 
         /// <summary>

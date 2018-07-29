@@ -542,7 +542,7 @@ MonoBehaviour:
     type: 2}
   FencePrefab: {fileID: 111856, guid: ab5e0beb1c36778479983f28b65d97dd, type: 2}
   LoadingScreen: {fileID: 1113938250}
-  meatBallImage: {fileID: 0}
+  meatBallImage: {fileID: 21300000, guid: 57e1b79c7aef3407193b3bc5415b4c23, type: 3}
 --- !u!1001 &856216310
 Prefab:
   m_ObjectHideFlags: 0

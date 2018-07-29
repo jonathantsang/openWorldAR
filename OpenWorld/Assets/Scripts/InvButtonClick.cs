@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class InvButtonClick : MonoBehaviour {
 
 	GameObject inventory;
+	PersistentDataController PDC;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +15,8 @@ public class InvButtonClick : MonoBehaviour {
 
 		inventory = GameObject.FindGameObjectWithTag ("inventory").gameObject;
 		inventory.SetActive (false);
+
+		PDC = GameObject.FindGameObjectWithTag ("persistentDataController").GetComponent<PersistentDataController> ();
 	}
 	
 	// Update is called once per frame
@@ -29,7 +32,17 @@ public class InvButtonClick : MonoBehaviour {
 		} else {
 			inventory.SetActive (true);
 			// Populate the inventory
+			populateInventory();
+		}
+	}
 
+	void populateInventory() {
+		int i = 0;
+		List<Collectible> items = PDC.getCollectibles ();
+		int len = Mathf.Min (items.Count, 3);
+		// Stops at 3
+		for (; i < len; i++) {
+			inventory.transform.GetChild (1).transform.GetChild (0).GetChild (i).GetComponent<Image> ().sprite = items [i].sprite;
 		}
 	}
 }

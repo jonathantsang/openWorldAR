@@ -35,6 +35,6 @@ final stuff:
 - message (done?)
 - brian website .tech domain
 - inventory (done ish?)
-- go back button in ar sections
+- go back button in ar sections (done)
 - story
 - conversation options based on skill points
