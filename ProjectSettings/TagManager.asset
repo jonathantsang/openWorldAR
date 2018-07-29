@@ -19,6 +19,12 @@ TagManager:
   - npc2
   - interactPanel
   - questLog
+  - fence
+  - npc3
+  - npc4
+  - FoggyFactoryBog
+  - PeacefulForest
+  - MysticMountain
   layers:
   - Default
   - TransparentFX

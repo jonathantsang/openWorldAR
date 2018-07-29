@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:2:70-104
+		INJECTED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:2:152-177
+		INJECTED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:2:105-151
+	android:versionCode
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:2:178-201
+		INJECTED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:2:202-242
+supports-screens
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:3:135-160
+application
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:4:3-19:17
+	android:label
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:4:92-124
+	android:icon
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:4:58-91
+	android:banner
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:4:147-184
+	android:theme
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:4:16-57
+	android:isGame
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:4:125-146
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:5:5-12:16
+	android:screenOrientation
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:5:102-140
+	android:label
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:5:69-101
+	android:hardwareAccelerated
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:5:355-390
+	android:launchMode
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:5:141-172
+	android:configChanges
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:5:173-354
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:5:15-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:6:7-10:23
+action#android.intent.action.MAIN
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:8:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:9:9-78
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:9:19-75
+meta-data#unityplayer.UnityActivity
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:11:7-82
+	android:value
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:11:59-79
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:11:18-58
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:13:5-88
+	android:value
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:13:65-85
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:13:16-64
+meta-data#unity.build-id
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:14:5-101
+	android:value
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:14:46-98
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:14:16-45
+meta-data#unity.splash-mode
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:15:5-69
+	android:value
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:15:49-66
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:15:16-48
+meta-data#unity.splash-enable
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:16:5-74
+	android:value
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:16:51-71
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:16:16-50
+meta-data#android.max_aspect
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:17:5-72
+	android:value
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:17:50-69
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:17:16-49
+meta-data#unity.tango-enable
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:18:5-73
+	android:value
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:18:50-70
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:18:16-49
+uses-sdk
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:20:3-72
+MERGED from [:unitygar:] /Users/Jon/.android/build-cache/1f8e79753d8812be2113ed1a61a26388f27da579/output/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:20:40-69
+		INJECTED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:20:13-39
+uses-feature#0x00020000
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:21:3-52
+	android:glEsVersion
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:21:17-49
+uses-permission#android.permission.CAMERA
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:22:3-63
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:22:20-60
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:23:3-65
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:23:20-62
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:24:3-88
+	android:required
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:24:61-85
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:24:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:25:3-99
+	android:required
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:25:72-96
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:25:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:26:3-108
+	android:required
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:26:81-105
+	android:name
+		ADDED from /Users/Jon/GitHub/openWorldAR/Temp/gradleOut/src/main/AndroidManifest.xml:26:17-80

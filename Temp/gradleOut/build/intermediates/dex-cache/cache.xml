@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Jon/.android/build-cache/1f8e79753d8812be2113ed1a61a26388f27da579/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="71f3e80c8418d9177c026c0b6e0d922b7756e185">
+        <dex dex="/Users/Jon/GitHub/openWorldAR/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_a85b62a2076309a079ab7ad7918d7e2c2709276a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Jon/.android/build-cache/1f8e79753d8812be2113ed1a61a26388f27da579/output/jars/libs/tango_java_lib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dac29b41332a170a55310a99e3e2f3058e3ac419">
+        <dex dex="/Users/Jon/GitHub/openWorldAR/Temp/gradleOut/build/intermediates/pre-dexed/release/tango_java_lib_3bf829f3161b603f177f6222aee4dbcf40ae63f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Jon/GitHub/openWorldAR/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c7ad43213fe1e246e9e20de950a388b41e1136c3">
+        <dex dex="/Users/Jon/GitHub/openWorldAR/Temp/gradleOut/build/intermediates/pre-dexed/release/unity-classes_448786067244aff266125c0046e2dda11ba39397.jar" />
+    </item>
+
+</items>

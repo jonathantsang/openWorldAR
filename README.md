@@ -22,6 +22,7 @@ multiple areas
 .tech website
 
 need:
-- buttons on the screen for movement
+- buttons on the screen for movement (test on android after)
+- fence more quests
 - multiple areas
 - more quests

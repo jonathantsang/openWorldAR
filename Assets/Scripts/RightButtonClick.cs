@@ -23,7 +23,6 @@ public class RightButtonClick : MonoBehaviour {
 		print ("click right");
 		// click left
 		rb2d.velocity = new Vector2 (2, 0);
-		print (rb2d.velocity);
 	}
 
 	void TaskOnTouch(){

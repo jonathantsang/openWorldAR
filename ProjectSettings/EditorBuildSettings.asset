@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FoggyFactoryBog.unity
+    guid: 4f32b81fc746d43eda1a2ec5268da63b
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 134e3921a61744409833a4002f76205f
+  - enabled: 1
+    path: Assets/Scenes/MysticMountain.unity
+    guid: 96656564cc7aa4a2cb6479b83690ef0e
