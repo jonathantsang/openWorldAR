@@ -19,6 +19,8 @@ public class MessageController : MonoBehaviour {
 			// display message
 			print(PDC.relayMessage);
 			message.text = PDC.relayMessage;
+			PDC.relayMessage = "";
+			PDC.sceneChange = 0;
 		}
 	}
 	
@@ -30,6 +32,7 @@ public class MessageController : MonoBehaviour {
 			message.text = "";
 			PDC.sceneChange = 0;
 			PDC.relayMessage = "";
+			timer = 0;
 		}
 	}
 

@@ -190,6 +190,17 @@ public class PlayerCollisionCheck : MonoBehaviour {
 			PDC.relayMessage = "Traveled to Peaceful Forest";
 			PDC.sceneChange = 1;
 			SceneManager.LoadScene ("PeacefulForest");
+
+		} else if (col.CompareTag ("SkyCity")) {
+			PDC.relayMessage = "Traveled to Sky City";
+			PDC.sceneChange = 1;
+			SceneManager.LoadScene ("SkyCity");
+
+		} else if (col.CompareTag ("Steampunk")) {
+			PDC.relayMessage = "Traveled to Steampunk";
+			PDC.sceneChange = 1;
+
+			SceneManager.LoadScene ("Steampunk");
 		}
 	}
 }

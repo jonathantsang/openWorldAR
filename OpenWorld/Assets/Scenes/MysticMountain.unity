@@ -557,6 +557,23 @@ Prefab:
       propertyPath: m_Size.x
       value: 0.72600555
       objectReference: {fileID: 0}
+    - target: {fileID: 1759507494481300, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_TagString
+      value: FoggyFactoryBog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125813048703268, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_Name
+      value: FoggyFactoryBog
+      objectReference: {fileID: 0}
+    - target: {fileID: 102843012063007338, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_Text
+      value: FoggyFactoryBog
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950579492531210, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
   m_IsPrefabParent: 0
@@ -807,6 +824,121 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &331525032
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4120367124299786, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120367124299786, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120367124299786, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120367124299786, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120367124299786, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120367124299786, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120367124299786, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120367124299786, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 61029881337841790, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61029881337841790, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -1.0483086
+      objectReference: {fileID: 0}
+    - target: {fileID: 61029881337841790, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.9256253
+      objectReference: {fileID: 0}
+    - target: {fileID: 61029881337841790, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 1.2949796
+      objectReference: {fileID: 0}
+    - target: {fileID: 61029881337841790, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.1590204
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759507494481300, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_Name
+      value: SkyCity
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950579492531210, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950579492531210, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950579492531210, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 102843012063007338, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_Text
+      value: SkyCity
+      objectReference: {fileID: 0}
+    - target: {fileID: 102843012063007338, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_Anchor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102843012063007338, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_Alignment
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125813048703268, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_Name
+      value: SkyCity
+      objectReference: {fileID: 0}
+    - target: {fileID: 102843012063007338, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
+        type: 2}
+      propertyPath: m_CharacterSize
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950579492531210, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759507494481300, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_TagString
+      value: SkyCity
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &375007808
 GameObject:
   m_ObjectHideFlags: 0

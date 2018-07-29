@@ -1359,6 +1359,10 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4950579492531210, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.95
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}
   m_IsPrefabParent: 0
@@ -1414,7 +1418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &964300032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1758,12 +1762,12 @@ Prefab:
     - target: {fileID: 61029881337841790, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
         type: 2}
       propertyPath: m_Offset.x
-      value: 1.403223
+      value: 1.0221963
       objectReference: {fileID: 0}
     - target: {fileID: 61029881337841790, guid: 1a583c04fe0db4aa9a58af7991c9ac74,
         type: 2}
       propertyPath: m_Size.x
-      value: 1.4572239
+      value: 2.2192774
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a583c04fe0db4aa9a58af7991c9ac74, type: 2}

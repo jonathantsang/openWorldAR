@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 23529261164129908}
   - component: {fileID: 102843012063007338}
   m_Layer: 0
-  m_Name: Foggy Factory Bog
+  m_Name: SkyCity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 61029881337841790}
   m_Layer: 0
   m_Name: FoggyFactoryBog
-  m_TagString: FoggyFactoryBog
+  m_TagString: SkyCity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1759507494481300}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9, y: -1, z: 0}
+  m_LocalPosition: {x: -15, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4878126141444504}
@@ -95,7 +95,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1208972826242146}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.5, y: -1, z: 0}
+  m_LocalPosition: {x: 0.5, y: -1, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 4120367124299786}
@@ -144,10 +144,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.5961165, y: -0.7002034}
+  m_Offset: {x: 0.54611635, y: -0.7002034}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -158,7 +158,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.3077612, y: 1.6218357}
+  m_Size: {x: 1.2077608, y: 1.6218357}
   m_EdgeRadius: 0
 --- !u!102 &102843012063007338
 TextMesh:
@@ -167,7 +167,9 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1125813048703268}
-  m_Text: Foggy Factory Bog
+  m_Text: 'SkyCity
+
+'
   m_OffsetZ: 0
   m_CharacterSize: 0.3
   m_LineSpacing: 1

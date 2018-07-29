@@ -23,6 +23,5 @@ multiple areas
 
 need:
 - buttons on the screen for movement (test on android after)
-- fence more quests
-- multiple areas
-- more quests
+- multiple areas (5)
+- devpost page prelim
