@@ -6,25 +6,13 @@ using UnityEngine.UI;
 public class Collectible {
 
 	// Used for storing in the inventory
-	int id;
-	Image image;
+	public int id;
+	public string descrip;
+	public Image image;
 
-	Collectible(){
-	}
-
-	public int getId(){
-		return id;
-	}
-
-	public void setId(int id){
+	public Collectible(int id, string descrip, Image image){
 		this.id = id;
-	}
-
-	public Image getImage(){
-		return image;
-	}
-
-	public void setImage(Image image){
+		this.descrip = descrip;
 		this.image = image;
 	}
 }

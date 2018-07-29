@@ -25,6 +25,13 @@ TagManager:
   - FoggyFactoryBog
   - PeacefulForest
   - MysticMountain
+  - R3
+  - R4
+  - R2
+  - R1
+  - Fence
+  - Score
+  - messageController
   layers:
   - Default
   - TransparentFX

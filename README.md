@@ -30,7 +30,7 @@ need:
 final stuff:
 - integrate the ar puzzles ones (tree is RBG)
 - suceed can't go back in the same puzzle (No need)
-- go into building, table puzzle
+- go into building, table puzzle (table puzzle)
 - make the quests real (no duplicate, actually complete them)
 - brian website .tech domain
 - inventory

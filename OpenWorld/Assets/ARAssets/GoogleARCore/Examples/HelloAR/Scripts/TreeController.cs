@@ -89,6 +89,8 @@ namespace GoogleARCore.Examples.HelloAR
 
         private GameObject[] obj = new GameObject[3];
 
+		public Image meatBallImage;
+
         public void Start()
         {
             LoadingScreen.SetActive(false);
@@ -141,10 +143,20 @@ namespace GoogleARCore.Examples.HelloAR
                         if (curr >= pattern.Length)
                         {
                             LoadingScreen.SetActive(true);
+
+							// Persistent Update
+							PersistentDataController PDC = GameObject.FindGameObjectWithTag("persistentDataController").GetComponent<PersistentDataController>();
+							PDC.addCollectible(1, "Ball of Meat", meatBallImage);
+							PDC.relayMessage = "You got a ball of meat...";
+							PDC.sceneChange = 1;
+
                             SceneManager.LoadScene("FoggyFactoryBog", LoadSceneMode.Single);
                         } else
                         {
 							// fail scene back
+							PersistentDataController PDC = GameObject.FindGameObjectWithTag("persistentDataController").GetComponent<PersistentDataController>();
+							PDC.relayMessage = "You failed the puzzle";
+							PDC.sceneChange = 1;
 							SceneManager.LoadScene("FoggyFactoryBog");
 
 							// reset rocks

@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerCollisionCheck.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerCollisionCheck.cs" Line="27" Column="28" />
+      <File FileName="Assets/MessageController.cs" Line="38" Column="22" />
+      <File FileName="Assets/Scripts/PlayerCollisionCheck.cs" Line="39" Column="22" />
+      <File FileName="Assets/Scripts/PersistentDataController.cs" Line="15" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

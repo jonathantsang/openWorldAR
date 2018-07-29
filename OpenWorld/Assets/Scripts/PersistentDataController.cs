@@ -12,11 +12,22 @@ public class PersistentDataController : MonoBehaviour {
 	GameObject inventory;
 	GameObject questLog;
 
+	private static PersistentDataController _instance;
+
 	List<Collectible> collectibles; // Used for populating the inventory
 	List<Quest> quests; // Used for populating the quests
 
+	public string relayMessage = "";
+	public int sceneChange = 0;
+
 	// Use this for initialization
 	void Start () {
+		if (_instance != null && _instance != this)
+		{
+			Destroy(this.gameObject);
+		} else {
+			_instance = this;
+		}
 		DontDestroyOnLoad(this.gameObject);
 		//inventory = GameObject.FindGameObjectWithTag ("inventory").gameObject;
 		//inventory.SetActive (false);
@@ -84,13 +95,17 @@ public class PersistentDataController : MonoBehaviour {
 		return agility;
 	}
 
+	public void addCollectible(int i,string descrip, Image img){
+		collectibles.Add (new Collectible (i, descrip, img));
+	}
+
 	public List<Collectible> getCollectibles(){
 		return collectibles;
 	}
 
 	public void removeFromCollectibles(int id){
 		foreach (Collectible collectible in collectibles) {
-			if (collectible.getId () == id) {
+			if (collectible.id == id) {
 				collectibles.Remove (collectible);
 			}
 		}
