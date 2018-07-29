@@ -24,4 +24,4 @@ multiple areas
 need:
 - buttons on the screen for movement (test on android after)
 - multiple areas (5)
-- devpost page prelim
+- devpost page prelim (done)

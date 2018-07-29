@@ -60,13 +60,13 @@ public class PlayerCollisionCheck : MonoBehaviour {
 
 				// For now just change to "I need a meatball"
 				TextMesh npcText = GameObject.FindGameObjectWithTag (col.tag).transform.parent.GetChild (1).GetComponent<TextMesh> ();
-				npcText.text = "I need my meatball";
+				npcText.text = "I need my trophy";
 
 				// Message for added quest
-				MC.showMessage("Added Quest: Meatball 1");
+				MC.showMessage("Added Quest: Trophy 1");
 
 				// check if owns the clue 1
-				PDC.addQuest (1, "Find his meatball", "Old Man 1");
+				PDC.addQuest (1, "Find his trophy", "Old Man 1");
 			}
 
 			if (PDC.containsCollectibleId (1)) {
@@ -74,10 +74,10 @@ public class PlayerCollisionCheck : MonoBehaviour {
 
 				// For now just change to "I need a meatball"
 				TextMesh npcText = GameObject.FindGameObjectWithTag (col.tag).transform.parent.GetChild (1).GetComponent<TextMesh> ();
-				npcText.text = "Thanks for the meatball";
+				npcText.text = "Thanks for the trophy";
 
 				// Message for added quest
-				MC.showMessage("Completed Quest: Meatball 1");
+				MC.showMessage("Completed Quest: Trophy 1");
 
 				PDC.removeFromCollectibles (1);
 			}

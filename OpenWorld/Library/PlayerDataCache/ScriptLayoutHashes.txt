@@ -5,9 +5,11 @@ SceneListBegin?
 Assets/Scenes/FoggyFactoryBog.unity
 Assets/Scenes/Intro.unity
 Assets/Scenes/MysticMountain.unity
-Assets/ARAssets/GoogleARCore/Examples/HelloAR/Scenes/Fence.unity
-Assets/ARAssets/GoogleARCore/Examples/HelloAR/Scenes/Tree.unity
-Assets/Scenes/PeacefulMountain.unity
+Assets/Scenes/Fence.unity
+Assets/Scenes/Tree.unity
+Assets/Scenes/PeacefulForest.unity
+Assets/Scenes/SkyCity.unity
+Assets/Scenes/Steampunk.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerTextController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -159,7 +161,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LeftButtonClick
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PersistentDataController
+b7c184a6c94243a98f63d2e0fc31fe37 Assembly-CSharp.dll:.PersistentDataController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InventoryManagementController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerCollisionCheck
 92264309497a554a5c7a787b5eeb65e2 Assembly-CSharp.dll:GoogleARCore.Examples.ComputerVision.ComputerVisionController
@@ -181,4 +183,6 @@ b203c0a7615dfebdf3d7d05b7551f462 Assembly-CSharp.dll:GoogleARCore.Examples.Cloud
 76e9de097d61507dbbefc433f1435e54 Assembly-CSharp.dll:GoogleARCore.AugmentedImageDatabase
 0352182229dc15ceae98dd2533712b4a Assembly-CSharp.dll:GoogleARCore.ARCoreBackgroundRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleARCore.Examples.CloudAnchor.RoomSharingServer
-7455d570762fefe2f70cdc162037f69d Assembly-CSharp.dll:GoogleARCore.Examples.HelloAR.TreeController
+f26dde92105c3158212f61db7b675005 Assembly-CSharp.dll:GoogleARCore.Examples.HelloAR.TreeController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MessageController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitButtonClick

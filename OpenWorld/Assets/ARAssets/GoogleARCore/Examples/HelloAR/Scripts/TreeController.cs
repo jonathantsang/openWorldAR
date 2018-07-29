@@ -95,12 +95,6 @@ namespace GoogleARCore.Examples.HelloAR
         {
             LoadingScreen.SetActive(false);
 
-			// Demo
-			PersistentDataController PDC = GameObject.FindGameObjectWithTag("persistentDataController").GetComponent<PersistentDataController>();
-			PDC.addCollectible(1, "Ball of Meat", meatBallImage);
-			PDC.relayMessage = "You got a ball of meat...";
-			PDC.sceneChange = 1;
-
 			SceneManager.LoadScene("FoggyFactoryBog", LoadSceneMode.Single);
         }
 
@@ -154,8 +148,8 @@ namespace GoogleARCore.Examples.HelloAR
 
 							// Persistent Update
 							PersistentDataController PDC = GameObject.FindGameObjectWithTag("persistentDataController").GetComponent<PersistentDataController>();
-							PDC.addCollectible(1, "Ball of Meat", meatBallImage);
-							PDC.relayMessage = "You got a ball of meat...";
+							PDC.addCollectible(1, "Trophy", meatBallImage);
+							PDC.relayMessage = "You got the trophy";
 							PDC.sceneChange = 1;
 
                             SceneManager.LoadScene("FoggyFactoryBog", LoadSceneMode.Single);
