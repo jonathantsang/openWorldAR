@@ -7,6 +7,7 @@ public class InvButtonClick : MonoBehaviour {
 
 	GameObject inventory;
 	PersistentDataController PDC;
+	public Sprite blank;
 
 	// Use this for initialization
 	void Start () {
@@ -37,12 +38,19 @@ public class InvButtonClick : MonoBehaviour {
 	}
 
 	void populateInventory() {
+		clearInventory ();
 		int i = 0;
 		List<Collectible> items = PDC.getCollectibles ();
 		int len = Mathf.Min (items.Count, 3);
 		// Stops at 3
 		for (; i < len; i++) {
 			inventory.transform.GetChild (1).transform.GetChild (0).GetChild (i).GetComponent<Image> ().sprite = items [i].sprite;
+		}
+	}
+
+	void clearInventory(){
+		for (int i = 0; i < 3; i++) {
+			inventory.transform.GetChild (1).transform.GetChild (0).GetChild (i).GetComponent<Image> ().sprite = blank;
 		}
 	}
 }
