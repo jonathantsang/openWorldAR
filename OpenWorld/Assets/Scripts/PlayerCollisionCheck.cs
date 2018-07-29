@@ -82,9 +82,9 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				PDC.removeFromCollectibles (1);
 
 				PDC.removeFromQuests (1);
+
+				PDC.setCompleted (1);
 			}
-
-
 
 		} else if (col.CompareTag ("npc2")) {
 			print ("npc2");
@@ -96,9 +96,9 @@ public class PlayerCollisionCheck : MonoBehaviour {
 			if (!alreadyGotQuest && !PDC.getCompleted(2)) {
 
 				// Message for added quest
-				MC.showMessage("Added Quest: Quest for the Magical Orb");
+				MC.showMessage("Added Quest: Quest for the Magical Piece of Paper");
 
-				PDC.addQuest (2, "find magic orb", "Elderly Wizard");
+				PDC.addQuest (2, "find paper of magic", "Elderly Wizard");
 
 			}
 
@@ -107,7 +107,7 @@ public class PlayerCollisionCheck : MonoBehaviour {
 
 				// For now just change to "I need a meatball"
 				TextMesh npcText = GameObject.FindGameObjectWithTag (col.tag).transform.parent.GetChild (1).GetComponent<TextMesh> ();
-				npcText.text = "Thanks for the magical orb";
+				npcText.text = "Thanks for the magical piece of paper";
 
 				// Message for added quest
 				MC.showMessage("Completed Quest: Elderly Wizard");
@@ -115,6 +115,8 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				PDC.removeFromCollectibles (2);
 
 				PDC.removeFromQuests (2);
+
+				PDC.setCompleted (2);
 			}
 
 		} else if (col.CompareTag ("npc3")) {
@@ -146,6 +148,8 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				PDC.removeFromCollectibles (3);
 
 				PDC.removeFromQuests (3);
+
+				PDC.setCompleted (3);
 			}
 
 		} else if (col.CompareTag ("npc4")) {
@@ -164,8 +168,6 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				// execute stuff
 
 				PDC.addQuest (4, "gather milk by the fence", "Farmer");
-
-
 			}
 
 			if (PDC.containsCollectibleId (4)) {
@@ -181,6 +183,8 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				PDC.removeFromCollectibles (4);
 
 				PDC.removeFromQuests (4);
+
+				PDC.setCompleted (4);
 			}
 		}
 

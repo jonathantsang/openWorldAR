@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jul 29 11:51:31 EDT 2018
+#Sun Jul 29 12:29:01 EDT 2018
 60.set=ASSET
 52.set=ASSET
 53.base=/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/assets/release

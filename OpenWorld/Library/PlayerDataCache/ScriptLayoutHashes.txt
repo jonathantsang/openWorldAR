@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/Jon/Downloads/cadadawdaf/test.apk
+/Users/Jon/Dropbox/apk/test.apk
 SceneListBegin?
 Assets/Scenes/FoggyFactoryBog.unity
 Assets/Scenes/Intro.unity
@@ -133,7 +133,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-7ef02f5c30f9b472f2c89718007b919e Assembly-CSharp.dll:GoogleARCore.Examples.HelloAR.FenceController
+ec6c4eda9b48dec0f9524d6cb6862dbc Assembly-CSharp.dll:GoogleARCore.Examples.HelloAR.FenceController
 4294352ce43e027e71b199587be57c74 Assembly-CSharp.dll:GoogleARCore.Examples.AugmentedImage.AugmentedImageVisualizer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PointToMainButton
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QueButtonClick

@@ -3,12 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Jon/.android/build-cache/b66adffd271cdf9c4861b8e0d5c419f7dc528aa2/output/jars/classes.jar"
+        jar="/Users/Jon/.android/build-cache/00c26d0a22442c834d81fcc9f277947917b71a7e/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="ec0be8acc42831c82bfe4d2c0f1fe0d336b97aa1">
-        <dex dex="/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_38c91f80106c536d0c0e3fe1b0ccc4cd361f8b80.jar" />
+        <dex dex="/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_96aee7898ac7a5b2c2038573e0a1e308fd0ce35c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Jon/.android/build-cache/8d560b2731df3fc41e1af62eed18f7bc353479ab/output/jars/libs/tango_java_lib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dac29b41332a170a55310a99e3e2f3058e3ac419">
+        <dex dex="/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/pre-dexed/release/tango_java_lib_6b105f5cc37c4ea5979e72e6ade1841bf925ad45.jar" />
     </item>
     <item
         is-multidex="false"
@@ -21,30 +30,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Jon/.android/build-cache/f41b5bb9598ed3a2d2aaaa961c41b71a10bd7531/output/jars/classes.jar"
+        jar="/Users/Jon/.android/build-cache/8d560b2731df3fc41e1af62eed18f7bc353479ab/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="3b08b853fe85764387602ff10decaf2b449f4ea2">
-        <dex dex="/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_1c69679fb8b2316e425dcf9da4c92d1de69b323d.jar" />
+        <dex dex="/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_3037fbe3235131cd50d589bfb8156469052caf30.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Jon/.android/build-cache/f4c9483325822193b6fdcd84fdfa6ac5d54003ab/output/jars/classes.jar"
+        jar="/Users/Jon/.android/build-cache/d0f020b439056477d0de99c2c2a7d26e5e7ab5a4/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="be35cfb98dbf80214072c4eb41da843fb0d4400d">
-        <dex dex="/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_db011731ec178ea741a0d4414a2fa83ba9d1d76c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jon/.android/build-cache/f41b5bb9598ed3a2d2aaaa961c41b71a10bd7531/output/jars/libs/tango_java_lib.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="dac29b41332a170a55310a99e3e2f3058e3ac419">
-        <dex dex="/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/pre-dexed/release/tango_java_lib_ab86ea4a97eb5d17c9196b27e40e72affd33434c.jar" />
+        <dex dex="/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_45550d61b12c9c9eeadf45867a36d060d58bb715.jar" />
     </item>
 
 </items>
