@@ -21,6 +21,9 @@ apply plugin: 'com.android.application'
 
 dependencies {
 	compile fileTree(dir: 'libs', include: ['*.jar'])
+	compile(name: 'arcore_client', ext:'aar')
+	compile(name: 'google_ar_required', ext:'aar')
+	compile(name: 'unityandroidpermissions', ext:'aar')
 	compile(name: 'unitygar', ext:'aar')
 }
 

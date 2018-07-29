@@ -24,6 +24,12 @@ public class PlayerCollisionCheck : MonoBehaviour {
 		if (col.CompareTag ("tree")) {
 			print ("tree");
 			// Change to tree scene in AR
+			SceneManager.LoadScene ("Tree");
+		} else if (col.CompareTag ("fence")) {
+			print ("fence");
+
+			SceneManager.LoadScene ("Fence");
+
 		} else if (col.CompareTag ("npc1")) {
 			print ("npc1");
 			// execute dialog if not played already

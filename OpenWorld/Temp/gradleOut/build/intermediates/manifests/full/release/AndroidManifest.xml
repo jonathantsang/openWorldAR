@@ -30,6 +30,9 @@
     <uses-feature
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
 
     <application
         android:banner="@drawable/app_banner"
@@ -61,7 +64,7 @@
             android:value="true" />
         <meta-data
             android:name="unity.build-id"
-            android:value="745a37a3-ffe6-48c8-b9f5-2e3c61eb3bed" />
+            android:value="ff1015f7-84d8-493c-b085-592cb3a17193" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
@@ -74,6 +77,20 @@
         <meta-data
             android:name="unity.tango-enable"
             android:value="True" />
+        <!-- This activity is critical for installing ARCore when it is not already present. -->
+        <activity
+            android:name="com.google.ar.core.InstallActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+        <meta-data
+            android:name="com.google.ar.core.min_apk_version"
+            android:value="180525000" />
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
     </application>
 
 </manifest>

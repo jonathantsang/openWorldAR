@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/Users/Jon/GitHub/openWorldAR/OpenWorld/Temp/gradleOut/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hr/values-hr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "/Users/Jon/.android/build-cache/8c4d7b42137d9a5f56750a9fda860d6cb087999d/output/res/values-hr/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 190,
+                        "endColumn": 48,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 53,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "/Users/Jon/.android/build-cache/8c4d7b42137d9a5f56750a9fda860d6cb087999d/output/res/values-hr/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 239,
+                        "endColumn": 49,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endColumn": 100,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "/Users/Jon/.android/build-cache/8c4d7b42137d9a5f56750a9fda860d6cb087999d/output/res/values-hr/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 289,
+                        "endColumn": 96,
+                        "endOffset": 385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 263,
+                    "endColumn": 102,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "/Users/Jon/.android/build-cache/8c4d7b42137d9a5f56750a9fda860d6cb087999d/output/res/values-hr/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 386,
+                        "endColumn": 98,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endColumn": 69,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "/Users/Jon/.android/build-cache/8c4d7b42137d9a5f56750a9fda860d6cb087999d/output/res/values-hr/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 485,
+                        "endColumn": 65,
+                        "endOffset": 550
+                    }
+                }
+            }
+        ]
+    }
+]
