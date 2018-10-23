@@ -25,6 +25,9 @@ public class QuitButtonClick : MonoBehaviour {
 		} else if (SceneManager.GetActiveScene ().name == "Fence") {
 			
 			SceneManager.LoadScene ("MysticMountain");
+		} else {
+		
+			SceneManager.LoadScene ("PeacefulForest");
 		}
 
 	}

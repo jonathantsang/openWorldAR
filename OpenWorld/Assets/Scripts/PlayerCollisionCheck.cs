@@ -49,6 +49,16 @@ public class PlayerCollisionCheck : MonoBehaviour {
 				SceneManager.LoadScene ("Fence");
 			}
 
+		} else if (col.CompareTag("table")){
+			print ("table");
+
+			// Check if has the collectible, aka done puzzle
+			bool alreadyGotItem = PDC.containsCollectibleId(3);
+
+			if (!alreadyGotItem) {
+				// Change to tree scene in AR
+				SceneManager.LoadScene ("Table");
+			}
 		} else if (col.CompareTag ("npc1")) {
 			print ("npc1");
 
